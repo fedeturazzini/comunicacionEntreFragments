@@ -1,0 +1,61 @@
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fedet.entregablematerialdesign.View.Fragment.FragmentAboutUs"
+    android:background="#3D4757">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/imagenyon"
+        android:layout_marginTop="129dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/nombreAboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Federico Turazzini"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:textSize="24sp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/descrAboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desarrollo Mobile - Android | Community Manager"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_below="@+id/nombreAboutUs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Argentina - Buenos Aires"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_below="@+id/descrAboutUs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/botonConctactar"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="63dp"
+        android:text="CONTACTAR"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
